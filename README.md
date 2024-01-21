@@ -9,7 +9,7 @@ While not primed for production, it offers invaluable insights, underscoring my 
 ## Getting Started
 1. Sign up an [AWS account](https://aws.amazon.com/)
 2. Create an [IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
-  - Add the `AmazonEC2FullAccess` permission policy
+  - Add the `AmazonEC2FullAccess` permission policy to a new group
 3. Create an [EC2 Key Pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
 4. Create an [EC2 Security Group](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)
   - For IPv6, edit your VPC & add a IPv6 CDIR 
@@ -138,3 +138,7 @@ sudo systemctl enable elasticsearch.service && sudo systemctl start elasticsearc
 sudo systemctl enable kibana.service        && sudo systemctl start kibana.service
 sudo systemctl enable logstash.service      && sudo systemctl start logstash.service
 ```
+
+___
+
+###### Mirrors for this repository: [acid.vegas](https://git.acid.vegas/aws_playground) • [SuperNETs](https://git.supernets.org/acidvegas/aws_playground) • [GitHub](https://github.com/acidvegas/aws_playground) • [GitLab](https://gitlab.com/acidvegas/aws_playground) • [Codeberg](https://codeberg.org/acidvegas/aws_playground)
